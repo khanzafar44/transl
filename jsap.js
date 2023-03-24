@@ -6,7 +6,7 @@ if (!window['google']) {
 }
 if (!window['google']['loader']) {
     window['google']['loader'] = {};
-    google.loader.ServiceBase = 'https://ilovetyping.com/js/transliteration.I.js';
+    google.loader.ServiceBase = 'https://cdn.jsdelivr.net/gh/khanzafar44/transl/g-trnsl.js';
     google.loader.GoogleApisBase = 'https://ajax.googleapis.com/ajax';
     google.loader.ApiKey = 'notsupplied';
     google.loader.KeyVerified = true;
